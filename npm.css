@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.top-nav{
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 5px;
+    padding-left: 10px;
+    height: 25px;
+}
+.acronym{
+    padding-left: 10px;
+}
+.top-nav a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+.top-left{
+    float: left;
+}
+.top-links{
+    float: right;
+    padding-left: 400px;
+    margin: 0 20px 0 0;
+}
+.top-links li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header{
+    color: white;
+    background-color: rgb(32, 101, 136);
+    letter-spacing: 0.4px;
+    background-image: url(images/city-scape.svg);
+    background-size: cover;
+    height: 300px;
+}
+.npm-logo{
+    width:80px;
+    margin-left: 10px;
+    position: relative;
+    top:10px;
+    padding-right: 15px;
+}
+
+.withsearch-bar input{
+    height: 25px;
+    width: 900px;
+    background-color: rgb(31, 82, 111);
+    border: 0.5px solid gray;
+    padding-right: 30px;
+}
+.withsearch-bar{
+    float: left;
+}
+.second-links li{
+    float: right;
+    vertical-align: top;
+    
+}
+.second-links a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+.second-links img{
+    text-decoration: none; 
+    width: 25px;
+    background-color: rgb(31, 82, 111);;
+}
+
+.build-city{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 10px;
+  
+}
+
+.build-city button{
+    background-color: rgb(240, 146, 51);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    
+}
+.build-city img{
+    width: 350px;
+    height: 600px;
+    float: right;
+}
+.collaboration{
+    background-color: rgb(39, 53, 71);
+    padding-bottom: 30px;
+}
+.collaboration img{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    float: left;
+    
+}
+.div-collaboration{
+    color: white;
+    float: left;
+    padding-top: 50px;
+    padding-left: 30px;
+    line-height: 2em;
+    letter-spacing: 0.4px;
+}
+
+
+.div-collaboration button{
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.div-collaboration a{
+    color: white;
+    text-decoration: none;
+}
+.whatisnpm{ 
+    height: 250px;
+    background-image: url(images/forklift.svg);
+    
+    background-size: cover;
+   
+}
+.div-whatisnpm{
+    color: white;
+    padding-left: 30px;
+}
+.whatisnpm button{
+    color: white;
+    background-color: rgb(49, 68, 88);
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.last-section{
+    background-color: white;
+}
+.last-section-div1{
+    margin: 0px auto;
+    text-align: center;
+}
+.last-section h3{
+    color: rgb(83, 88, 98);
+}
+.last-section p{
+    color: rgb(135, 145, 156);
+}
+.last-section a{
+   color: rgb(208, 74, 73);
+}
+.todo{
+    margin: 40px 40px 100px 40px;
+    text-align: center;
+}
+.todo img{
+    width: 100px;
+}
+.col{
+    float: left;
+    
+}
+.col-3{
+    width: 33%;
+}
+.clearfix{
+    clear: both;
+}
