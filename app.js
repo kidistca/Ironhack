@@ -11,7 +11,7 @@ let rover = {
 }
 
 function turnLeft(rover){
-  console.log("turnLeft was called!");
+  // console.log("turnLeft was called!");
   switch(rover.direction){
   case "N": rover.direction = "W"; break;
   case "W": rover.direction = "S"; break;
@@ -22,7 +22,7 @@ console.log("Rover turns to " + rover.direction);
 }
 
 function turnRight(rover){
-  console.log("turnRight was called!");
+  // console.log("turnRight was called!");
   switch(rover.direction){
     case "N": rover.direction = "E"; break;
     case "E": rover.direction = "S"; break;
@@ -34,12 +34,12 @@ function turnRight(rover){
 
 
 function moveForward(rover){
-  console.log("moveForward was called")
+  //console.log("moveForward was called")
   switch(rover.direction){
-    case "N": rover.y--; break;
-    case "S": rover.y++; break;
-    case "W": rover.x--; break;
-    case "E": rover.x++; break;
+    case "N": (rover.y > 0) ? rover.y--: console.log("Out of grid!"); break;
+    case "S": (rover.y <10) ? rover.y++: console.log("Out of grid!"); break;
+    case "W": (rover.x >0) ? rover.x--: console.log("Out of grid!"); break;
+    case "E": (rover.x <10) ? rover.x++: console.log("Out of grid!"); break;
   }
   console.log("Rover Position is " + rover.x + " , " + rover.y)
   rover.travelLog.push(rover.x,rover.y);
@@ -48,12 +48,12 @@ function moveForward(rover){
 
 
 function moveBackward(rover){
-  console.log("moveBackward was called")
+  //console.log("moveBackward was called")
   switch(rover.direction){
-    case "N": rover.y++; break;
-    case "S": rover.y--; break;
-    case "W": rover.x++; break;
-    case "E": rover.x--; break;
+    case "N": (rover.y <10) ? rover.y++: console.log("Out of grid!"); break;
+    case "S": (rover.y >0) ? rover.y--: console.log("Out of grid!"); break;
+    case "W": (rover.x <10) ? rover.x++: console.log("Out of grid!"); break;
+    case "E": (rover.x >0) ? rover.x--: console.log("Out of grid!"); break;
   }
   console.log("Rover Position is " + rover.x + " , " + rover.y)
   rover.travelLog.push(rover.x, rover.y);
